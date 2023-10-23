@@ -1,0 +1,89 @@
+<!-- <!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+<meta charset="utf-8"/>
+
+<title>Cadastro Cliente</title>
+
+</head>
+
+<body>
+<form action="cadastro.php" method="POST">
+
+<label for="">Nome: </label>
+<input type="text" name="nome">
+</br>
+<label for="">Sobrenome: </label>
+<input type="text" name="sobrenome">
+</br>
+<label for="">E-mail: </label>
+<input type="e-mail" name="email">
+</br>
+<label for="">Senha: </label>
+<input type="password" name="senha">
+</br>
+<label for="">Questão 1: </label>
+<input type="text" name="questao1">
+</br>
+<label for="">Questão 2: </label>
+<input type="text" name="questao2">
+</br>
+<label for="">Questão 3:</label>
+<input type="text" name="questao3">
+</br>
+<label for="">Questão 4: </label>
+<input type="text" name="questao4">
+</br>
+<button>Cadastrar</button>
+</br>
+<button type="reset">Limpar</button>
+
+</form>
+
+
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+</head>
+<body>
+    
+    <form action="cadastro.php" method="POST">
+
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome">
+
+        <label for="">Questão 1: </label>
+
+        <p>Quem Descobriu o Brasil?</p>
+        <p>a) Pedro</p>
+        <p>b) João</p>
+        <p>c) José</p>
+        <p>d) Vicente</p>
+        <p>e) Jonas</p>
+        <input type="text" name="questao1" id="rest">
+
+        <label for="">Questão 2: </label>
+
+        <p>Quem Descobriu o Brasil?</p>
+        <p>a) Pedro</p>
+        <p>b) João</p>
+        <p>c) José</p>
+        <p>d) Vicente</p>
+        <p>e) Jonas</p>
+        <input type="text" name="questao2" id="rest">
+        <button>Cadastrar</button>
+    </form>
+    <button onclick="respostas()">Mostrar a Resposta</button>
+        <span id="res"></span>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
